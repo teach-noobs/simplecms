@@ -1,0 +1,1 @@
+<?phpinclude_once('config.php');session_start();$q = isset($_GET['q']) ? $_GET['q'] : '';$rout = new M_Rout($q);$rout->Request();

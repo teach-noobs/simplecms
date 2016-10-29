@@ -1,0 +1,1 @@
+<div class="gallery"><? foreach($images as $img): ?><div class="gallery__item">  <a href="/<?=IMG_DIR . $img['path']?>" data-lightbox="roadtrip" rel="gallery">  	<img src="/<?=IMG_SMALL_DIR . $img['path']?>" width="220" height="220" alt="<?=$img['alt']?>" title="<?=$img['title_image']?>"/>  </a></div><? endforeach; ?></div>
